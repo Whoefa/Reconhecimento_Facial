@@ -1,6 +1,6 @@
 import cv2 as cv
 #Armazena a imagem em uma variavel
-img=cv.imread('Fotos/woman.jpg')
+img=cv.imread('woman.jpg')
 #Inicio a imagem em uma escala de cinza
 cinza=cv.cvtColor(img,cv.COLOR_BGR2GRAY)
 #Mostro a imagem em uma janela passando o parametro cinza
